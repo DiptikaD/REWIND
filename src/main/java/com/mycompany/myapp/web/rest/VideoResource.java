@@ -22,6 +22,7 @@ import tech.jhipster.web.util.ResponseUtil;
  */
 @RestController
 @RequestMapping("/api/videos")
+@CrossOrigin(origins = "http://localhost:3000/")
 @Transactional
 public class VideoResource {
 

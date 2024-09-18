@@ -24,6 +24,7 @@ import tech.jhipster.web.util.ResponseUtil;
  */
 @RestController
 @RequestMapping("/api/user-profiles")
+@CrossOrigin(origins = "http://localhost:3000/")
 @Transactional
 public class UserProfileResource {
 
